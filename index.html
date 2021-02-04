@@ -13,21 +13,27 @@
     <div class="conteneur">
         <nav>
             <div class="menu">
-                <div class="menu__home"><i class="fas fa-home"></i></div>
-                <div class="menu__formations"><i class="fas fa-university"></i>
-                    <p class="menu__text">Formations</p>
+                <div class="menu__content menu__home"><a href="index.html"><i class="fas fa-home"></i>
+                <p>Home</p></a></div>
+                <div class="menu__content menu__formations"><a href="#ancreformations"><i class="fas fa-university"></i>
+                        <p class="menu__text">Formations</p>
+                    </a>
                 </div>
-                <div class="menu__experiences"><i class="fas fa-briefcase"></i>
-                    <p class="menu__text">Experiences</p>
+                <div class="menu__content menu__experiences"><a href="#ancreexperiences"><i class="fas fa-briefcase"></i>
+                        <p class="menu__text">Experiences</p>
+                    </a>
                 </div>
-                <div class="menu__competences"><i class="fas fa-drafting-compass"></i>
-                    <p class="menu__text">Compétences</p>
+                <div class="menu__content menu__competences"><a href="#ancrecompetences"><i class="fas fa-drafting-compass"></i>
+                        <p class="menu__text">Compétences</p>
+                    </a>
                 </div>
-                <div class="menu__hobbies"><i class="fas fa-umbrella-beach"></i>
-                    <p class="menu__text">Loisirs</p>
+                <div class="menu__content menu__loisirs"><a href="#ancreloisirs"><i class="fas fa-umbrella-beach"></i>
+                        <p class="menu__text">Loisirs</p>
+                    </a>
                 </div>
-                <div class="menu__contact"><i class="fas fa-address-book"></i>
-                    <p class="menu__text">Contact</p>
+                <div class="menu__content menu__contact"><a href="#ancrecontact"><i class="fas fa-address-book"></i>
+                        <p class="menu__text">Contact</p>
+                    </a>
                 </div>
             </div>
         </nav>
@@ -38,7 +44,7 @@
                     <h2>Développeur Web en recherche de contrat d'apprentissage</h2>
                 </div>
             </header>
-            <section>
+            <section id="ancreformations">
                 <div class="formations">
                     <h2><i class="fas fa-university"></i>Mes formations</h2>
                     <div class="formations__oc">
@@ -63,19 +69,19 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="ancreexperiences">
                 <div class="experiences">
                     <h2><i class="fas fa-briefcase"></i>Mes expériences</h2>
                     <div class="experiences__sykes">
                         <h3>Téléconseiller</h3>
-                        <h4>Sykes, <span>Edimbourg</span></h4>
+                        <h4>Sykes, <span>Édimbourg</span></h4>
                         <h5>Janvier 2019 à Août 2020</h5>
                     </div>
                     <div class="experiences__odesia">
-                    <h3>Animateur - Guide</h3>
-                    <h4>Odesia Vacances, <span>Village Vacances les Crozats</span></h4>
-                    <h5>Juin à Octobre 2018</h5> 
-                    </div>                   
+                        <h3>Animateur - Guide</h3>
+                        <h4>Odesia Vacances, <span>Village Vacances les Crozats</span></h4>
+                        <h5>Juin à Octobre 2018</h5>
+                    </div>
                     <div class="experiences__bp">
                         <h3>Assistant d'Education</h3>
                         <h4>Lycée Blaise Pascal, <span>Orsay</span></h4>
@@ -104,7 +110,7 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="ancrecompetences">
                 <div class="competences">
                     <h2><i class="fas fa-drafting-compass"></i>Mes compétences</h2>
                     <ul>
@@ -119,16 +125,57 @@
                         <li>Anglais</li>
                         <li>Espagnol</li>
                     </ul>
+                    <h3>En cours d'acquisition</h3>
+                    <ul>
+                        <li>Javascript</li>
+                        <li>SEO</li>
+                        <li>Node.js</li>
+                        <li>Vue.js</li>
+                        <li>Express</li>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                    </ul>
                 </div>
             </section>
-            <section>
+            <section id="ancreloisirs">
                 <div class="loisirs">
                     <h2><i class="fas fa-umbrella-beach"></i>Loisirs</h2>
+                    <ul>
+                        <li>
+                            <h3><i class="fas fa-plane"></i>Voyages</h3>
+                            <div class="flags">
+                                <img src="photos/flags/Chile.png" alt="Chili" title="Chili">
+                                <img src="photos/flags/Colombia.png" alt="Colombie" title="Colombie">
+                                <img src="photos/flags/Ecuador.png" alt="Equateur" title="Equateur">
+                                <img src="photos/flags/Iran.png" alt="Iran" title="Iran">
+                                <img src="photos/flags/Italy.png" alt="Italie" title="Italie">
+                                <img src="photos/flags/Morocco.png" alt="Maroc" title="Maroc">
+                                <img src="photos/flags/Nepal.png" alt="Nepal" title="Népal">
+                                <img src="photos/flags/Peru.png" alt="Pérou" title="Pérou">
+                                <img src="photos/flags/Spain.png" alt="Espagne" title="Espagne">
+                                <img src="photos/flags/Tunisia.png" alt="Tunisie" title="Tunisie">
+                                <img src="photos/flags/UK.png" alt="Royaume-Uni" title="Angleterre et Écosse">
+                                <img src="photos/flags/US.png" alt="États-Unis" title="États-Unis"></div>
+                        </li>
+                        <li>
+                            <h3><i class="fas fa-music"></i>Arts & Musique</h3>
+                            <p><i class="fas fa-guitar" title="Guitare, Basse, Ukulele et Piano"></i>
+                                <i class="fas fa-microphone-alt" title="Chant"></i>
+                                <i class="fas fa-theater-masks" title="Théâtre"></i></p>
+                        </li>
+                        <li>
+                            <h3><i class="fas fa-chess"></i>Jeux</h3>
+                            <p>Échecs, Jeux de plateau, Jeux video, Belote, Tarot</video></p>
+                        </li>
+                        <li><p><i class="fas fa-film"></i>Cinema et séries<i class="fas fa-tv"></i></p></li>
+                    </ul>
                 </div>
             </section>
-            <footer>
+            <footer id="ancrecontact">
                 <div class="contact">
                     <h2><i class="fas fa-address-book"></i>Contactez-moi !</h2>
+                    <p><i class="fas fa-phone-alt"></i>06 40 91 07 47</p>
+                    <a href="mailto:vincentguilbaud3@gmail.com"><p><i class="fab fa-telegram-plane"></i>vincentguilbaud3@gmail.com</p></a>
                 </div>
             </footer>
         </div>
