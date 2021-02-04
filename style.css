@@ -157,7 +157,8 @@ body {
     margin: 0 auto
 }
 
-.contenu{margin-left: 20%;width: 80%;padding-left: 4%;}
+.contenu{margin-left: 20%;width: 80%;}
+header, section, footer{padding-left: 4%;width: 92%;padding-right: 4%;}
 
 /***********************************Menu****************************************/
 
@@ -169,10 +170,48 @@ nav{position: fixed; left: 0px; top: 0px;background-color: #F2F2F2;width: 20%;he
 .menu__content:hover a{color:#0065FC;}
 
 /***********************************Titre****************************************/
-header, .titre{width: 100%;}
-.titre{padding-top: 30px;}
+
+header{display: flex;align-items: stretch;justify-content: space-between;padding-top: 30px;padding-bottom: 30px;}
+header img{width: 30px}
+.frenchflag{opacity: 0.3;}
+.menulan{display: flex;flex-direction: column;justify-content: space-around}
+.titre{width: 70%;}
 .titre h1{font-size: 4em;font-weight: bold;padding-bottom: 15px;}
 .titre h2{font-size: 1.3em;font-style: italic;padding-left: 4%;}
+
+/***********************************Formations****************************************/
+
+.formations{background-color: #F2F2F2;padding: 20px;border-radius: 25px;margin-bottom: 30px;}
+.formations h2{font-weight: bold;font-size: 2.5em;padding-bottom:20px;align-items: center;}
+.formations h2 i{padding-right: 30px;color:#0065FC;font-size: 1.3em;}
+.formations__items{background-color: white;padding:1.6%;border-radius: 25px;box-shadow: #DEEBFF 4px 4px 4px;margin-bottom: 20px;display: flex;align-items: center;flex-wrap: wrap;}
+.formations__logos{font-size: 2.3em;padding-right: 20px;width: 5%;color:#0065FC;}
+.formations__description{display: flex;justify-content: space-between;width: 90%;align-items: center;}
+.formations__description h3{font-size: 1.4em;font-weight: bold;padding-bottom: 7px;}
+.formations__place h3 span{color:#0065FC}
+.formations__place p{padding-left: 15px;}
+.formations__place p span{font-style: italic;}
+
+/***********************************Formations****************************************/
+
+.experiences{background-color: #F2F2F2;padding: 20px;border-radius: 25px;margin-bottom: 30px;}
+.experiences h2{font-weight: bold;font-size: 2.5em;padding-bottom:20px;align-items: center;}
+.experiences h2 i{padding-right: 30px;color:#0065FC;font-size: 1.3em;}
+.experiences__items{background-color: white;padding:1.6%;border-radius: 25px;box-shadow: #DEEBFF 4px 4px 4px;margin-bottom: 20px;display: flex;align-items: center;flex-wrap: wrap;}
+.experiences__logo{font-size: 2.3em;padding-right: 20px;width: 5%;color:#0065FC;}
+.experiences__description{display: flex;justify-content: space-between;width: 90%;align-items: center;}
+.experiences__description h3{font-size: 1.4em;font-weight: bold;padding-bottom: 7px;}
+.experiences__place h3 span{color:#0065FC}
+.experiences__place p{padding-left: 15px;}
+.experiences__place p span{font-style: italic;}
+.experiences__logo .fa-guitar{font-size: 1.2em;}
+.experiences__autres{background-color: white;padding:1.4%;border-radius: 25px;box-shadow: #DEEBFF 4px 4px 4px;margin-bottom: 20px;}
+.autres__titre{display: flex;align-items: center;padding-bottom: 15px;}
+.autres__titre h3{font-size: 1.4em;font-weight: bold;}
+.experiences__autres li{display: flex; justify-content: space-between;align-items: center;padding: 6px 20px 6px 20px;}
+.experiences__autres h4{font-weight: bold;}
+.experiences__autres li span{font-weight: normal;font-style: italic;}
+.experiences__autres p{font-weight: normal;}
 
 
 
