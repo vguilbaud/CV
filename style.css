@@ -205,9 +205,13 @@ header img{width: 30px}
 .experiences__place p{padding-left: 15px;}
 .experiences__place p span{font-style: italic;}
 .experiences__logo .fa-guitar{font-size: 1.2em;}
-.experiences__autres{background-color: white;padding:1.4%;border-radius: 25px;box-shadow: #DEEBFF 4px 4px 4px;margin-bottom: 20px;}
+
+.experiences__autres{background-color: white;padding:1.4%;border-radius: 25px;box-shadow: #DEEBFF 4px 4px 4px;margin-bottom: 20px;cursor: pointer;max-height: 42px;transform: scale(1,1);transition:ease-in-out 350ms 550ms;}
 .autres__titre{display: flex;align-items: center;padding-bottom: 15px;}
 .autres__titre h3{font-size: 1.4em;font-weight: bold;}
+.experiences__autres ul{;transform: scale(0);transition: transform ease-in 350ms 900ms; transform-origin: left;}
+.experiences__autres:hover ul{transform: scale(1);}
+.experiences__autres:hover{transform: scale(1,1);max-height: 450px;}
 .experiences__autres li{display: flex; justify-content: space-between;align-items: center;padding: 6px 20px 6px 20px;}
 .experiences__autres h4{font-weight: bold;}
 .experiences__autres li span{font-weight: normal;font-style: italic;}
