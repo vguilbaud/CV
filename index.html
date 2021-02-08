@@ -44,7 +44,7 @@
                     <h1>Vincent Guilbaud</h1>
                     <h2>Développeur Web en recherche de contrat d'apprentissage</h2>
                 </div>
-                <div class="menulan"><img src="photos/flags/France.png" alt="Drapeau Français" class="frenchflag">
+                <div class="menulan"><img src="photos/flags/France.png" alt="Drapeau Français" class="frenchflag" style="opacity: 0.3;">
                     <a href="indexen.html"><img src="photos/flags/UK.png" alt="Passage en Anglais" title="Switch to English"></a>
                 </div>
             </header>
@@ -58,7 +58,7 @@
                                 <h3>Prep'Apprentissage - <span>Développeur Web</span></h3>
                                 <p>OpenClassrooms, <span>Lille</span></p>
                             </div>
-                            <h4>Novembre 2020 - Aujourd'hui</h4>
+                            <h4>Depuis Novembre</h4>
                         </div>
                     </div>
                     <div class="formations__items formations__afpa">
@@ -155,7 +155,7 @@
                             <li><h4>Vendangeur - <span>Charantay</span></h4><p>2020</p></li>
                             <li title="Worst Job Ever..."><h4>Courtier en assurances - <span>Téléperformances, Villeneuve d'Asq</span></h4><p>2015</p></li>
                             <li><h4>Animateur enfants - <span>Écoles Primaires de Lomme</span></h4><p>2015</p></li>
-                            <li><h4>Assistant en Magasin - <span>La Foir'fouille, Lomme</span><h4><p>2014 et 2015</p></li>
+                            <li><h4>Assistant en Magasin - <span>La Foir'fouille, Lomme</span></h4><p>2014 et 2015</p></li>
                             <li><h4>Animateur enfants - <span>Hôtel Palm Beach, Tunisie</span></h4><p>2014</p></li>
                             <li><h4>Caissier - <span>Dia, Paris</span></h4><p>Étés 2011, 2012 et 2013</p></li>
                         </ul>
@@ -166,19 +166,19 @@
                 <div class="competences">
                     <h2><i class="fas fa-drafting-compass"></i>Mes compétences</h2>
                     <ul>
-                        <li>Efficacité</li>
-                        <li>Créativité</li>
-                        <li>Adaptation rapide</li>
-                        <li>Relationnel Client</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Git et Github</li>
-                        <li>Permis B</li>
-                        <li>Anglais</li>
-                        <li>Espagnol</li>
+                        <li><i class="fas fa-chart-line"></i><p>Efficacité</p></li>
+                        <li><i class="fas fa-music"></i><p>Créativité</p></li>
+                        <li><i class="fas fa-users-cog"></i><p>Adaptation</p></li>
+                        <li><i class="fas fa-users"></i><p>Relationnel</p></li>
+                        <li><i class="fas fa-laptop-code"></i><p>HTML5</p></li>
+                        <li><i class="fas fa-laptop"></i><p>CSS3</p></li>
+                        <li><i class="fas fa-download"></i><p>Github</p></li>
+                        <li><i class="fas fa-car-side"></i><p>Permis B</p></li>
+                        <li><img src="photos/flags/UK.png" alt="Drapeau anglais"><p>Anglais</p></li>
+                        <li><img src="photos/flags/Spain.png" alt="Drapeau espagnol"><p>Espagnol</p></li>
                     </ul>
-                    <h3>En cours d'acquisition</h3>
-                    <ul>
+                    <h3><i class="fab fa-leanpub"></i>En cours d'acquisition</h3>
+                    <ul class="acquisition">
                         <li>Javascript</li>
                         <li>SEO</li>
                         <li>Node.js</li>
@@ -186,6 +186,9 @@
                         <li>Express</li>
                         <li>MongoDB</li>
                         <li>MySQL</li>
+                        <li>Sass</li>
+                        <li>Bootstrap</li>
+                        <li>OWASP</li>
                     </ul>
                 </div>
             </section>
@@ -194,7 +197,7 @@
                     <h2><i class="fas fa-umbrella-beach"></i>Loisirs</h2>
                     <ul>
                         <li>
-                            <h3><i class="fas fa-plane"></i>Voyages</h3>
+                            <h3 class="voyages"><i class="fas fa-plane"></i><span>Voyages</span></h3>
                             <div class="flags">
                                 <img src="photos/flags/Chile.png" alt="Chili" title="Chili">
                                 <img src="photos/flags/Colombia.png" alt="Colombie" title="Colombie">
@@ -209,30 +212,46 @@
                                 <img src="photos/flags/UK.png" alt="Royaume-Uni" title="Angleterre et Écosse">
                                 <img src="photos/flags/US.png" alt="États-Unis" title="États-Unis"></div>
                         </li>
+                    </ul>
+                    <ul class="artsjeux">
                         <li>
-                            <h3><i class="fas fa-music"></i>Arts & Musique</h3>
-                            <p><i class="fas fa-guitar" title="Guitare, Basse, Ukulele et Piano"></i>
-                                <i class="fas fa-microphone-alt" title="Chant"></i>
-                                <i class="fas fa-theater-masks" title="Théâtre"></i></p>
+                            <h3 class="arts__titre"><i class="fas fa-music"></i><span>Arts & Musique</span></h3>
+                            <div class="arts--logos">
+                                <div>
+                                    <a href="guitarsample.mp4" target="_blank"><i class="fas fa-guitar" title="Guitare, Basse, Ukulele et Piano, clique pour un échantillon gratuit"></i></a></div>
+                                <div><i class="fas fa-microphone-alt" title="Chant"></i></div>
+                                <div><i class="fas fa-theater-masks" title="Théâtre"></i></div>
+                            </div>
                         </li>
-                        <li>
-                            <h3><i class="fas fa-chess"></i>Jeux</h3>
+                        <li class="jeux">
+                            <h3 class="jeux__titre"><i class="fas fa-chess"></i><span>Jeux</span></h3>
                             <p>Échecs, Jeux de plateau, Jeux video, Belote, Tarot</p>
                         </li>
-                        <li>
-                            <p><i class="fas fa-film"></i>Cinema et séries<i class="fas fa-tv"></i></p>
+                    </ul>
+                    <ul class="cinepara">
+                        <li class="cine">
+                            <i class="fas fa-film"></i><span>Cinema et séries</span><i class="fas fa-tv"></i>
                         </li>
-                        <li><i class="fas fa-parachute-box"></i>Parapente</li>
+                        <li class="sports">
+                            <div class="parapente" title="Je m'en vante encore mais en vrai ça fait 10 ans que j'en ai pas fait">
+                                <i class="fas fa-parachute-box"></i><span>Parapente</span>
+                            </div>
+                            <div class="foot" title="Le regarder seulement : je sais pas tirer... la vérité j'étais en équipe 5, ils l'avaient créé spécialement pour moi, on était 2, moi et le chien du coach... Et franchement même là des fois c'était serré !">
+                                <i class="fas fa-futbol"></i><span>Football</span>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </section>
             <footer id="ancrecontact">
                 <div class="contact">
-                    <h2><i class="fas fa-address-book"></i>Contactez-moi !</h2>
-                    <p><i class="fas fa-phone-alt"></i>06 40 91 07 47</p>
-                    <a href="mailto:vincentguilbaud3@gmail.com">
-                        <p><i class="fab fa-telegram-plane"></i>vincentguilbaud3@gmail.com</p>
-                    </a>
+                    <h2><i class="fas fa-address-book"></i><span>Contactez-moi</span></h2>
+                    <div class="contact__content">
+                        <a href="mailto:vincentguilbaud3@gmail.com">
+                            <p class="contact__mail"><i class="fab fa-telegram-plane"></i><span>vincentguilbaud3@gmail.com</span></p>
+                        </a>
+                        <a href="tel:0640910747"><p class="contact__phone"><i class="fas fa-phone-alt"></i><span>06 40 91 07 47</span></p></a>
+                    </div>
                 </div>
             </footer>
         </div>
