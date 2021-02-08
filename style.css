@@ -399,7 +399,7 @@ footer{background-color: #F2F2F2; padding-top: 50px;padding-bottom: 60px;}
 @media all and (max-width: 600px){
 
     body{overflow-x: hidden;}
-    header, section,footer{padding-left: 2%;width: 96%;padding-right: 2%;}
+    header, section,footer{padding-left: 2%;width: 100%;padding-right: 2%;}
     /***********************************Menu mob****************************************/
 
     nav{height: 60px;width: 90%;}
