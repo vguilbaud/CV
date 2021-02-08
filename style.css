@@ -173,13 +173,25 @@ nav{position: fixed; left: 0px; top: 0px;background-color: #F2F2F2;width: 20%;he
     .menu__content i{font-size: 5em;}
     .menu__content p{font-size: 2em;}
 }
+@media all and (max-height: 500px){
+    .menu__content i{font-size: 3em;}
+    .menu__content p{display: none;}
+    .menu{flex-wrap: wrap;}
+}
+@media all and (max-height: 350px){
+    .menu__content p{display: none;}
+}
+
+@media all and (max-height: 150px){
+    .menu__content i{font-size: 1.5em;}
+}
 
 /***********************************Titre****************************************/
 
 header{display: flex;align-items: stretch;justify-content: space-between;padding-top: 30px;padding-bottom: 30px;}
 header img{width: 30px}
 .menulan{display: flex;flex-direction: column;justify-content: space-around}
-.titre{width: 70%;}
+.titre{width: 85%;}
 .titre h1{font-size: 4em;font-weight: bold;padding-bottom: 15px;}
 .titre h2{font-size: 1.3em;font-style: italic;padding-left: 4%;}
 
@@ -200,7 +212,7 @@ header img{width: 30px}
 .formations__place h3 span{color:#0065FC}
 .formations__place p{padding-left: 15px;}
 .formations__place p span{font-style: italic;}
-.formations__items h4{font-size: 1em;}
+.formations__items h4{font-size: 1em;padding-left: 4px;}
 
 @media all and (max-width: 1000px){
     .formations h2{font-size: 1.7em;}
@@ -223,7 +235,9 @@ header img{width: 30px}
 .experiences__place h3 span{color:#0065FC}
 .experiences__place p{padding-left: 15px;}
 .experiences__place p span{font-style: italic;}
+.experiences__items h4{padding-left:4px}
 .experiences__logo .fa-guitar{font-size: 1.2em;}
+
 
 .experiences__autres{background-color: white;padding:15px;border-radius: 25px;box-shadow: #DEEBFF 4px 4px 4px;margin-bottom: 20px;cursor: pointer;}
 .autres__titre{display: flex;align-items: center;padding-bottom: 15px;}
@@ -284,9 +298,9 @@ header img{width: 30px}
 .loisirs h2 i{padding-right: 30px;color:#0065FC;font-size: 1.3em;}
 
 .loisirs li{background-color: white;padding:1.6%;border-radius: 25px;box-shadow: #DEEBFF 4px 4px 4px;margin-bottom: 20px;display: flex;align-items: center;justify-content: space-between;}
-.loisirs .voyages{display: flex;align-items: center;padding-right: 20px;}
-.loisirs .voyages span{font-weight: bold;font-size: 1.3em;}
-.loisirs .voyages .fas{font-size: 2.3em;color:#0065FC;padding-right: 15px;}
+.voyages__titre{display: flex;align-items: center;padding-right: 20px;}
+.voyages__titre span{font-weight: bold;font-size: 1.3em;}
+.voyages__titre .fas{font-size: 2.3em;color:#0065FC;padding-right: 15px;}
 .flags{display: flex;width: 86%;flex-wrap: wrap;}
 .flags img{width: 40px;margin-right: 3%;}
 .artsjeux{display: flex;justify-content: space-between;align-items: stretch;}
@@ -316,7 +330,7 @@ header img{width: 30px}
 
 @media all and (max-width: 1000px){
     .loisirs h2{font-size: 1.7em;}
-    .loisirs .voyages .fas{font-size: 1.6em;}
+    .voyages__titre .fas{font-size: 1.6em;}
     .flags img{width: 33px;}
 
     .arts__titre{padding-bottom: 10px;}
@@ -356,5 +370,109 @@ footer{background-color: #F2F2F2; padding-top: 50px;padding-bottom: 60px;}
     .contact__content span{font-size: 1.1em;}
 }
 
-/***********************************Ecrans -1200 px****************************************/
+/***********************************Ecrans -800 px****************************************/
+@media all and (max-width: 800px){
+    .conteneur{width: 100%;}
+    .contenu{margin-left:0%;width: 100%;}
+    body{overflow-x: hidden;}
 
+    nav{width: 100%;height:90px;background-color: white;opacity: 0.8;}
+    .menu{flex-direction: row;padding-top: 10px;padding-bottom: 20px;}
+    .menu__content i{font-size: 2em;}
+    .menu__content p{font-size: 1em;}
+
+    header{margin-top: 80px;}
+
+    .contact__content{flex-direction: column;}
+    footer{padding-top: 20px;padding-bottom: 40px;width: 100%;padding-left: 25px;padding-right: 0%;margin-right: 0%;}
+    .contact h2{padding-bottom: 25px;}
+    .contact__mail{padding-bottom: 15px;}
+
+}
+
+@media all and (max-width: 650px){
+    .formations__description h3{font-size: 0.9em;}
+    .formations__items h4{font-size: 0.7em;}
+    .experiences__description h3{font-size: 0.9em;}
+    .experiences__items h4{font-size: 0.7em;}
+}
+
+
+@media all and (max-width: 600px){
+
+    /***********************************Menu mob****************************************/
+
+    nav{height: 60px;width: 100%;}
+    .menu__content i{font-size: 2em;}
+    .menu__content p{display: none;}
+
+    /***********************************Titre mob****************************************/
+
+    header{margin-top: 60px;}
+    .titre h1{font-size: 1.8em;}
+    .titre h2{font-size: 1em;}
+
+    /***********************************Formations mob****************************************/
+
+    .formations h2 i{padding-right: 15px;}
+    .formations__items{padding: 10px}
+    .formations__description{flex-direction: column;align-items: flex-start;width: 87%;padding-left: 10px;}
+    .formations__logos{width: 10%;font-size: 1.9em;}
+    .formations__description h3{padding-bottom: 1px;}
+    .formations__description p{padding-bottom: 2px;}
+    .formations__items h4{padding-left: 25px;}
+    .formations__description p{font-size: 0.8em;}
+
+    /***********************************Experiences mob****************************************/
+
+    .experiences h2 i{padding-right: 15px;}
+    .experiences__items{padding: 10px}
+    .experiences__description{flex-direction: column;align-items: flex-start;width: 87%;padding-left: 10px;}
+    .experiences__logo{width: 10%;font-size: 1.9em;}
+    .experiences__description h3{padding-bottom: 1px;}
+    .experiences__description p{padding-bottom: 2px;}
+    .experiences__items h4{padding-left: 25px;}
+    .experiences__items p{font-size: 0.8em;}
+
+    .experiences__autres li{flex-direction: column;align-items: flex-start;justify-content: flex-start;}
+    .experiences__autres li p{padding-left: 10px;}
+
+    /***********************************Compétences mob****************************************/
+
+    .competences h2 i{padding-right: 15px;}
+    .competences h3 i{font-size: 1.6em; padding-right: 5px;}
+    .competences h3 {font-size: 1.3em;}
+    .competences li{width: 43%;padding-top: 10px;padding-bottom: 15px;}
+    .competences li .fas{font-size: 30px;}
+    .competences li img{width: 30px;}
+    .competences li p{font-size: 1em}
+    .acquisition li{padding-top:15px;padding-bottom: 15px;font-size: 1em;}
+
+    /***********************************Loisirs mob****************************************/
+
+    .loisirs h2 i{padding-right: 15px;}
+    .voyages__titre{padding-bottom: 10px;}
+    .loisirs li{flex-direction: column;align-items: flex-start;padding: 10px}
+    .flags{width: 104%;}
+
+    .artsjeux{flex-direction: column;}
+    .artsjeux li{width: auto;}
+    .arts__titre{width: 100%;}
+    .arts__titre span{font-size: 1.3em;}
+    .arts--logos{width: 100%;font-size: 1.4em;}
+    .jeux__titre{width: 100%;}
+    .jeux__titre span{font-size:1.3em}
+    .jeux p{font-size: 0.9em;}
+    .cinepara{flex-direction: column;}
+    .cinepara li{width: auto;}
+    .cinepara .cine{padding:15px; flex-direction: row;justify-content: space-between;align-items: center;}
+    .cinepara .cine .fas{font-size: 1.6em;}
+    .cinepara .cine span{font-size: 1.2em;}
+    .cinepara .sports{display: flex;flex-direction: row;align-items: center;justify-content: space-between;}
+    .sports .fas{font-size: 1.6em;}
+    .sports span{font-size: 1.1em;}
+
+    /***********************************Contact mob****************************************/
+
+
+}
