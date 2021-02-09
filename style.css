@@ -398,12 +398,12 @@ footer{background-color: #F2F2F2; padding-top: 50px;padding-bottom: 60px;}
 
 @media all and (max-width: 600px){
 
-    body{overflow-x: hidden;}
-    header, section,footer{padding-left: 2%;width: 100%;padding-right: 2%;}
+
     /***********************************Menu mob****************************************/
 
-    nav{height: 60px;width: 90%;}
-    .menu__content i{font-size: 2em;}
+    nav{height: 60px;}
+    .menu{padding-top: 5px;padding-bottom: 5px;}
+    .menu__content i{font-size: 1.8em;}
     .menu__content p{display: none;}
 
     /***********************************Titre mob****************************************/
