@@ -287,9 +287,6 @@ header img{width: 30px}
     .competences li p{font-size: 0.8em;}
     .acquisition li{font-size: 1em;}
 }
-@media all and (max-width: 1000px){
-
-}
 
 /***********************************Loisirs****************************************/
 
@@ -398,16 +395,16 @@ footer{background-color: #F2F2F2; padding-top: 50px;padding-bottom: 60px;}
 
 @media all and (max-width: 600px){
 
-
+section,footer{padding-left: 4%;width: 92%;padding-right: 0%;}
     /***********************************Menu mob****************************************/
 
-    nav{height: 60px;}
+    nav{height: 45px;}
     .menu__content i{font-size: 1.8em;}
     .menu__content p{display: none;}
 
     /***********************************Titre mob****************************************/
 
-    header{margin-top: 60px;}
+    header{margin-top: 30px;}
     .titre h1{font-size: 1.8em;}
     .titre h2{font-size: 1em;}
 
