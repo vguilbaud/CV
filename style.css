@@ -193,6 +193,7 @@ header img{width: 30px}
 .menulan{display: flex;flex-direction: column;justify-content: space-around}
 .titre{width: 85%;}
 .titre h1{font-size: 4em;font-weight: bold;padding-bottom: 15px;}
+.titre h1 span{font-size: 25px;font-style: italic;padding-right: 5px;font-weight: normal;}
 .titre h2{font-size: 1.3em;font-style: italic;padding-left: 4%;}
 
 @media all and (max-width: 1000px){
