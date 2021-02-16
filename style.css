@@ -219,6 +219,7 @@ header img{width: 30px}
 
 .formations__items:hover .description__under{display: block;}
 .description__under{padding-top: 10px;padding-left: 20px;font-size: 1em;font-style: italic;display: none;}
+.description__under a{color: #0065FC;}
 
 @media all and (max-width: 1000px){
     .formations h2{font-size: 1.7em;}
