@@ -170,8 +170,8 @@ nav{position: fixed; left: 0px; top: 0px;background-color: #F2F2F2;width: 20%;he
 .menu__content:hover a{transform:scale(1.15);color: #0065FC;}
 
 @media all and (min-width: 1600px){
-    .menu__content i{font-size: 5em;}
-    .menu__content p{font-size: 2em;}
+    .menu__content i{font-size: 4em;}
+    .menu__content p{font-size: 1.8em;}
 }
 @media all and (max-height: 500px){
     .menu__content i{font-size: 3em;}
@@ -194,7 +194,8 @@ header img{width: 30px}
 .titre{width: 85%;}
 .titre h1{font-size: 4em;font-weight: bold;padding-bottom: 15px;}
 .titre h1 span{font-size: 25px;font-style: italic;padding-right: 5px;font-weight: normal;}
-.titre h2{font-size: 1.3em;font-style: italic;padding-left: 4%;}
+.titre h2, .titre p{font-size: 1.3em;font-style: italic;padding-left: 4%;}
+.titre p{padding-top: 10px;}
 
 @media all and (max-width: 1000px){
     .titre h1{font-size: 3em;}
@@ -362,11 +363,20 @@ footer{background-color: #F2F2F2; padding-top: 50px;padding-bottom: 60px;}
 .contact__phone, .contact__mail{display: flex;width: 100%;flex-wrap: nowrap;transform: scale(1);transition: all 500ms 200ms;}
 .contact__mail:hover, .contact__phone:hover{color: #0065FC;transform: scale(1.05);}
 
+.addresse{padding-top: 25px;font-size: 1.5em;font-weight: bold;}
+.linkedin{max-width: 80%;}
+.linkedin a{display: flex;align-items: center;padding-top: 25px;font-weight: bold;font-size: 1.3em;transform: scale(1);transition: all 500ms 200ms;transform-origin: left center;max-width: 100%;}
+.linkedin a i{font-size: 2em;padding-right: 20px;}
+.linkedin a:hover{color: #0065FC;transform: scale(1.05);}
+
 @media all and (max-width: 1000px){
     .contact h2 span{font-size: 1.6em;}
     .contact h2 i{font-size: 2.2em;}
     .contact__content i{font-size: 1.8em;}
     .contact__content span{font-size: 1.1em;}
+    .addresse{font-size: 1.1em;}
+    .linkedin a{font-size: 1.1em;}
+    .linkedin a i{font-size: 1.8em;}
 }
 
 /***********************************Ecrans -800 px****************************************/
