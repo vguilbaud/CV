@@ -217,7 +217,8 @@ header img{width: 30px}
 .formations__place p span{font-style: italic;}
 .formations__items h4{font-size: 1em;padding-left: 4px;}
 
-.description__under{padding-top: 10px;padding-left: 20px;font-size: 1em;font-style: italic;}
+.formations__items:hover .description__under{display: block;}
+.description__under{padding-top: 10px;padding-left: 20px;font-size: 1em;font-style: italic;display: none;}
 
 @media all and (max-width: 1000px){
     .formations h2{font-size: 1.7em;}
@@ -246,8 +247,10 @@ header img{width: 30px}
 .experiences__items h4{padding-left:4px}
 .experiences__logo .fa-guitar{font-size: 1.2em;}
 
+.experiences__items:hover .description__under{display: block;}
 
-.experiences__autres{background-color: white;padding:15px;border-radius: 25px;box-shadow: #DEEBFF 4px 4px 4px;margin-bottom: 20px;cursor: pointer;}
+
+.experiences__autres{background-color: white;padding:15px;border-radius: 25px;box-shadow: #DEEBFF 4px 4px 4px;margin-bottom: 20px}
 .autres__titre{display: flex;align-items: center;padding-bottom: 15px;}
 .autres__titre h3{font-size: 1.4em;font-weight: bold;}
 .experiences__autres ul{width: 98%;}
@@ -360,7 +363,7 @@ header img{width: 30px}
 footer{background-color: #F2F2F2; padding-top: 50px;padding-bottom: 60px;}
 .contact{display: flex;flex-direction: column;align-items: baseline}
 .contact h2 i{font-size: 3em;padding-right: 30px;}
-.contact h2{padding-bottom: 60px; width: 100%;}
+.contact h2{padding-bottom: 40px; width: 100%;}
 .contact h2 span{font-size: 2em;font-weight: bold;}
 .contact__content{display: flex;justify-content: space-between;align-items: center;width: 100%;}
 .contact__content i{font-size: 2.5em;padding-right: 20px;}
