@@ -189,17 +189,21 @@ nav{position: fixed; left: 0px; top: 0px;background-color: #F2F2F2;width: 20%;he
 /***********************************Titre****************************************/
 
 header{display: flex;align-items: stretch;justify-content: space-between;padding-top: 30px;padding-bottom: 30px;}
-header img{width: 30px}
+.menulan img{width: 30px}
 .menulan{display: flex;flex-direction: column;justify-content: space-around}
-.titre{width: 85%;}
+.titre{width: 80%;}
 .titre h1{font-size: 4em;font-weight: bold;padding-bottom: 15px;}
 .titre h1 span{font-size: 25px;font-style: italic;padding-right: 5px;font-weight: normal;}
 .titre h2, .titre p{font-size: 1.3em;font-style: italic;padding-left: 4%;}
-.titre p{padding-top: 10px;}
+.titre p{padding-top: 10px;font-size: 1em;padding-left: 8%;}
+.photoprof{width: 110px;display: flex;align-items: center;}
+.photoprof img{border-radius: 50%;width: 100%;}
 
 @media all and (max-width: 1000px){
     .titre h1{font-size: 3em;}
     .titre h2{font-size: 1.1em;}
+    .titre p{padding-left: 4%;}
+    .photoprof{display: none;}
 }
 
 /***********************************Formations****************************************/
@@ -362,10 +366,10 @@ header img{width: 30px}
 /***********************************Contact****************************************/
 
 footer{background-color: #F2F2F2; padding-top: 50px;padding-bottom: 60px;}
-.contact{display: flex;flex-direction: column;align-items: baseline}
 .contact h2 i{font-size: 3em;padding-right: 30px;}
-.contact h2{padding-bottom: 40px; width: 100%;}
+.contact h2{padding-bottom: 30px; width: 100%;}
 .contact h2 span{font-size: 2em;font-weight: bold;}
+.contact .nomage{font-size: 1.5em;font-weight: bold;padding-bottom: 30px;}
 .contact__content{display: flex;justify-content: space-between;align-items: center;width: 100%;}
 .contact__content i{font-size: 2.5em;padding-right: 20px;}
 .contact__content span{font-size: 1.5em;font-weight: bold;}
@@ -384,6 +388,7 @@ footer{background-color: #F2F2F2; padding-top: 50px;padding-bottom: 60px;}
     .contact h2 i{font-size: 2.2em;}
     .contact__content i{font-size: 1.8em;}
     .contact__content span{font-size: 1.1em;}
+    .contact .nomage{font-size:1.1em ;}
     .addresse{font-size: 1.1em;}
     .linkedin a{font-size: 1.1em;}
     .linkedin a i{font-size: 1.8em;}
