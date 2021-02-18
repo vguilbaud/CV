@@ -376,6 +376,8 @@ footer{background-color: #F2F2F2; padding-top: 50px;padding-bottom: 60px;}
 .contact__mail{padding-right: 30px;}
 .contact__phone, .contact__mail{display: flex;width: 100%;flex-wrap: nowrap;transform: scale(1);transition: all 500ms 200ms;}
 .contact__mail:hover, .contact__phone:hover{color: #0065FC;transform: scale(1.05);}
+.nomage a{transform: scale(1);transition: all 500ms 200ms;transform-origin: left center;max-width:90%;}
+.nomage a:hover{transform: scale(1.05);color: #0065FC;}
 
 .addresse{padding-top: 25px;font-size: 1.5em;font-weight: bold;}
 .linkedin{max-width: 80%;}
