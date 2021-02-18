@@ -222,7 +222,7 @@ header{display: flex;align-items: stretch;justify-content: space-between;padding
 .formations__items h4{font-size: 1em;padding-left: 4px;}
 
 .formations__items:hover .description__under{display: block;}
-.description__under{padding-top: 10px;padding-left: 20px;font-size: 1em;font-style: italic;display: none;}
+.description__under{padding-top: 10px;padding-left: 20px;font-size: 1em;font-style: italic;display: none;width: 96%;}
 .description__under a{color: #0065FC;}
 
 @media all and (max-width: 1000px){
