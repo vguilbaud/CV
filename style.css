@@ -162,6 +162,11 @@ header, section,footer{padding-left: 4%;width: 92%;padding-right: 4%;}
 
 /***********************************Menu****************************************/
 
+aside{position: fixed;background-color: #D02424;bottom: 50px;right: 50px;
+ border-radius: 50%;width: 100px;height: 100px;display: flex;align-items: center;transform: scale(1);transition: 500ms 200ms;}
+aside a{color: white;font-weight: bold;text-align: center;font-size: 1em;}
+aside:hover{transform: scale(1.15);}
+
 nav{position: fixed; left: 0px; top: 0px;background-color: #F2F2F2;width: 20%;height: 100%}
 .menu{width: 100%;display: flex;flex-direction: column;align-items: center;height: 100%;justify-content: space-around;}
 .menu__content a
@@ -427,7 +432,9 @@ footer{background-color: #F2F2F2; padding-top: 50px;padding-bottom: 60px;}
 
 section,footer{padding-left: 4%;width: 92%;padding-right: 0%;}
     /***********************************Menu mob****************************************/
-
+    aside{position: fixed;bottom: 25px;right: 25px;
+        border-radius: 50%;width: 70px;height: 70px;}
+       aside a{font-size: 0.8em;font-weight: normal;}
     nav{height: 45px;}
     .menu__content i{font-size: 1.8em;}
     .menu__content p{display: none;}
