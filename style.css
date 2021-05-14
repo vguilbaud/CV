@@ -220,7 +220,7 @@ nav {
   transition: 500ms 200ms;
 }
 .menu__content i {
-  font-size: 30px;
+  font-size: 40px;
   padding-bottom: 10px;
 }
 .menu__content:hover a {
@@ -228,9 +228,9 @@ nav {
   color: #0065fc;
 }
 
-@media all and (min-width: 1600px) {
+@media all and (min-width: 2000px) {
   .menu__content i {
-    font-size: 50px;
+    font-size: 80px;
   }
   .menu__content p {
     font-size: 1.4em;
@@ -356,10 +356,13 @@ header {
   align-items: center;
 }
 .formations__logos {
-  font-size: 2.3em;
+  font-size: 40px;
   padding-right: 20px;
   width: 5%;
   color: #0065fc;
+}
+.fa-js-square {
+  font-size: 50px;
 }
 .formations__description {
   display: flex;
@@ -923,7 +926,7 @@ footer {
   color: #0065fc;
 }
 
-.addresse {
+.vehicule {
   padding-top: 25px;
   font-size: 1.5em;
   font-weight: bold;
@@ -967,7 +970,7 @@ footer {
   .contact .nomage {
     font-size: 1.1em;
   }
-  .addresse {
+  .vehicule {
     font-size: 1.1em;
   }
   .linkedin a {
