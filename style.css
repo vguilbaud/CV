@@ -212,6 +212,7 @@ nav {
   height: 100%;
   justify-content: space-around;
 }
+
 .menu__content a {
   display: flex;
   flex-direction: column;
